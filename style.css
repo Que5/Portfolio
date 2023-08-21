@@ -1,0 +1,558 @@
+.hero,
+.hero * {
+    box-sizing: border-box;
+}
+
+.hero {
+    background: #ffffff;
+    width: 1439px;
+    height: 1033px;
+    position: relative;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.tall-lighthouse-north-sea-cloudy-1 {
+    width: 1876px;
+    height: 1033px;
+    position: absolute;
+    left: -210px;
+    top: 0px;
+}
+
+.rectangle-2 {
+    background: rgba(41, 47, 48, 0.65);
+    width: 1440px;
+    height: 1033px;
+    position: absolute;
+    left: -2px;
+    top: 0px;
+}
+
+.group-18 {
+    position: absolute;
+    inset: 0;
+}
+
+.hey-there-i-am-phumlani-dlamini {
+    color: #ffffff;
+    text-align: left;
+    font: 700 50px "Playfair Display", sans-serif;
+    position: absolute;
+    left: calc(50% - 400.5px);
+    top: 398px;
+    width: 815px;
+}
+
+.a-software-developer-who-specializes-in-the-mern-stack-and-web-3-i-m-also-a-passionate-smart-contract-security-researcher-and-auditor-i-love-building-decentralized-applications-that-are-secure-reliable-and-user-friendly-i-m-always-up-for-a-challenge-and-i-m-always-looking-for-new-ways-to-learn-and-grow {
+    color: #ffffff;
+    text-align: center;
+    font: 600 20px/159.52% "Poppins", sans-serif;
+    position: absolute;
+    left: calc(50% - 344.5px);
+    top: 469px;
+    width: 688px;
+    height: 161px;
+}
+
+
+/* navigation bar */
+
+
+
+
+.rectangle-2,
+.rectangle-2 * {
+    box-sizing: border-box;
+}
+
+.rectangle-2 {
+    background: rgba(41, 47, 48, 0.65);
+    width: 1440px;
+    height: 1033px;
+    position: relative;
+}
+
+.a-software-developer-who-specializes-in-the-mern-stack-and-web-3-i-m-also-a-passionate-smart-contract-security-researcher-and-auditor-i-love-building-decentralized-applications-that-are-secure-reliable-and-user-friendly-i-m-always-up-for-a-challenge-and-i-m-always-looking-for-new-ways-to-learn-and-grow,
+.a-software-developer-who-specializes-in-the-mern-stack-and-web-3-i-m-also-a-passionate-smart-contract-security-researcher-and-auditor-i-love-building-decentralized-applications-that-are-secure-reliable-and-user-friendly-i-m-always-up-for-a-challenge-and-i-m-always-looking-for-new-ways-to-learn-and-grow * {
+    box-sizing: border-box;
+}
+
+.a-software-developer-who-specializes-in-the-mern-stack-and-web-3-i-m-also-a-passionate-smart-contract-security-researcher-and-auditor-i-love-building-decentralized-applications-that-are-secure-reliable-and-user-friendly-i-m-always-up-for-a-challenge-and-i-m-always-looking-for-new-ways-to-learn-and-grow {
+    color: #ffffff;
+    text-align: center;
+    font: 600 20px/159.52% "Poppins", sans-serif;
+    position: relative;
+    width: 688px;
+    height: 161px;
+}
+
+.skills,
+.skills * {
+    box-sizing: border-box;
+}
+
+.skills {
+    background: #1c3941;
+    width: 1439px;
+    height: 1033px;
+    position: relative;
+}
+
+.skills2 {
+    position: absolute;
+    inset: 0;
+}
+
+.rectangle-31 {
+    background: linear-gradient(180deg,
+            rgba(43, 164, 184, 0.35) 0%,
+            rgba(41, 47, 48, 0.35) 100%);
+    border-radius: 25px;
+    width: 973px;
+    height: 434.04px;
+    position: absolute;
+    left: calc(50% - 486.5px);
+    top: calc(50% - 71.35px);
+}
+
+.skills3 {
+    color: #d9d9d9;
+    text-align: center;
+    font: 600 48px "Poppins", sans-serif;
+    position: absolute;
+    left: calc(50% - 62.97px);
+    top: calc(50% - 242.5px);
+}
+
+.group-12 {
+    width: 941.94px;
+    height: 511.67px;
+    position: static;
+}
+
+.group-3 {
+    width: 230.36px;
+    height: 195.93px;
+    position: static;
+}
+
+.rectangle-18 {
+    background: #ffffff;
+    border-radius: 25px;
+    width: 230.36px;
+    height: 195.93px;
+    position: absolute;
+    left: calc(50% - 115.64px);
+    top: calc(50% - -205.57px);
+}
+
+.icons-8-react-80-1 {
+    width: 101.41px;
+    height: 95.28px;
+    position: absolute;
+    left: calc(50% - 50.71px);
+    top: calc(50% - -255.94px);
+}
+
+.group-4 {
+    width: 230.36px;
+    height: 195.93px;
+    position: static;
+}
+
+.rectangle-19 {
+    background: #ffffff;
+    border-radius: 25px;
+    width: 230.36px;
+    height: 195.93px;
+    position: absolute;
+    left: calc(50% - 471.88px);
+    top: calc(50% - -205.57px);
+}
+
+.icons-8-javascript-96-1 {
+    border-radius: 25px;
+    width: 95.59px;
+    height: 73.37px;
+    position: absolute;
+    left: calc(50% - 404.22px);
+    top: calc(50% - -267.13px);
+}
+
+.group-2 {
+    width: 230.36px;
+    height: 195.93px;
+    position: static;
+}
+
+.rectangle-17 {
+    background: #ffffff;
+    border-radius: 25px;
+    width: 230.36px;
+    height: 195.93px;
+    position: absolute;
+    left: calc(50% - -239.69px);
+    top: calc(50% - -205.57px);
+}
+
+.icons-8-css-96-1 {
+    border-radius: 25px;
+    width: 95.59px;
+    height: 89.09px;
+    position: absolute;
+    left: calc(50% - -307.36px);
+    top: calc(50% - -259.44px);
+}
+
+.group-1 {
+    width: 230.36px;
+    height: 195.93px;
+    position: static;
+}
+
+.rectangle-15 {
+    background: #ffffff;
+    border-radius: 25px;
+    width: 230.36px;
+    height: 195.93px;
+    position: absolute;
+    left: calc(50% - -239.69px);
+    top: calc(50% - 110.17px);
+}
+
+.icons-8-html-5-96-1 {
+    border-radius: 25px;
+    width: 95.59px;
+    height: 117.81px;
+    position: absolute;
+    left: calc(50% - -307.36px);
+    top: calc(50% - 72.58px);
+}
+
+.group-5 {
+    width: 230.36px;
+    height: 195.93px;
+    position: static;
+}
+
+.rectangle-16 {
+    background: #ffffff;
+    border-radius: 25px;
+    width: 230.36px;
+    height: 195.93px;
+    position: absolute;
+    left: calc(50% - 115.64px);
+    top: calc(50% - 110.17px);
+}
+
+.icons-8-tailwind-css-96-1 {
+    border-radius: 25px;
+    width: 95.59px;
+    height: 117.81px;
+    position: absolute;
+    left: calc(50% - 47.97px);
+    top: calc(50% - 72.58px);
+}
+
+.group-6 {
+    width: 230.36px;
+    height: 195.93px;
+    position: static;
+}
+
+.rectangle-14 {
+    background: #ffffff;
+    border-radius: 25px;
+    width: 230.36px;
+    height: 195.93px;
+    position: absolute;
+    left: calc(50% - 471.88px);
+    top: calc(50% - 110.17px);
+}
+
+.icons-8-solidity-96-1 {
+    border-radius: 25px;
+    width: 95.59px;
+    height: 85px;
+    position: absolute;
+    left: calc(50% - 404.22px);
+    top: calc(50% - 56px);
+}
+
+.projects,
+.projects * {
+    box-sizing: border-box;
+}
+
+.projects {
+    background: rgba(53, 111, 127, 0.5);
+    width: 1439px;
+    height: 1033px;
+    position: relative;
+}
+
+.group-17 {
+    position: absolute;
+    inset: 0;
+}
+
+.projects2 {
+    color: #ffffff;
+    text-align: center;
+    font: 600 48px "Poppins", sans-serif;
+    position: absolute;
+    left: calc(50% - 98.5px);
+    top: calc(50% - 229.5px);
+}
+
+.project-item {
+    width: 276px;
+    height: 298.47px;
+    position: static;
+}
+
+.download-3-1 {
+    border-radius: 25px 25px 0px 0px;
+    width: 276px;
+    height: 177.1px;
+    position: absolute;
+    left: calc(50% - 513.5px);
+    top: calc(50% - 69.5px);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit {
+    color: #ffffff;
+    text-align: center;
+    font: 600 20px "Poppins", sans-serif;
+    position: absolute;
+    left: calc(50% - 491.5px);
+    top: calc(50% - -132.5px);
+    width: 231.53px;
+    height: 30.67px;
+}
+
+.rectangle-33 {
+    background: rgba(150, 166, 171, 0.5);
+    border-radius: 25px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 1px;
+    width: 276px;
+    height: 297.47px;
+    position: absolute;
+    left: calc(50% - 513.5px);
+    top: calc(50% - 68.5px);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.download-3-12 {
+    border-radius: 25px 25px 0px 0px;
+    width: 276px;
+    height: 177.1px;
+    position: absolute;
+    left: calc(50% - 137.5px);
+    top: calc(50% - 69.5px);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit2 {
+    color: #ffffff;
+    text-align: center;
+    font: 600 20px "Poppins", sans-serif;
+    position: absolute;
+    left: calc(50% - 123.5px);
+    top: calc(50% - -132.5px);
+    width: 231.53px;
+    height: 30.67px;
+}
+
+.rectangle-332 {
+    background: rgba(150, 166, 171, 0.5);
+    border-radius: 25px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 1px;
+    width: 276px;
+    height: 297.47px;
+    position: absolute;
+    left: calc(50% - 137.5px);
+    top: calc(50% - 68.5px);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.download-3-13 {
+    border-radius: 25px 25px 0px 0px;
+    width: 276px;
+    height: 177.1px;
+    position: absolute;
+    left: calc(50% - -237.5px);
+    top: calc(50% - 69.5px);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit3 {
+    color: #ffffff;
+    text-align: center;
+    font: 600 20px "Poppins", sans-serif;
+    position: absolute;
+    left: calc(50% - -259.5px);
+    top: calc(50% - -132.5px);
+    width: 231.53px;
+    height: 30.67px;
+}
+
+.rectangle-333 {
+    background: rgba(150, 166, 171, 0.5);
+    border-radius: 25px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 1px;
+    width: 276px;
+    height: 297.47px;
+    position: absolute;
+    left: calc(50% - -237.5px);
+    top: calc(50% - 68.5px);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+.contact,
+.contact * {
+    box-sizing: border-box;
+}
+
+.contact {
+    background: #1c3941;
+    width: 1439px;
+    height: 1033px;
+    position: relative;
+}
+
+.contact2 {
+    position: absolute;
+    inset: 0;
+}
+
+.group-16 {
+    width: 1128px;
+    height: 420.6px;
+    position: static;
+}
+
+.rectangle-23 {
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 32px;
+    border-style: solid;
+    border-color: rgba(43, 164, 184, 0.5);
+    border-width: 1px;
+    width: 1128px;
+    height: 420.6px;
+    position: absolute;
+    left: calc(50% - 564.5px);
+    top: calc(50% - 151.1px);
+}
+
+.rectangle-24 {
+    background: rgba(53, 111, 127, 0.15);
+    border-radius: 20px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 1px;
+    width: 478.82px;
+    height: 64.27px;
+    position: absolute;
+    left: calc(50% - 506.03px);
+    top: calc(50% - 87.27px);
+}
+
+.rectangle-25 {
+    background: rgba(53, 111, 127, 0.15);
+    border-radius: 20px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 1px;
+    width: 478.82px;
+    height: 64.27px;
+    position: absolute;
+    left: calc(50% - 506.03px);
+    top: calc(50% - -38.65px);
+}
+
+.rectangle-27 {
+    background: rgba(53, 111, 127, 0.15);
+    border-radius: 20px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 1px;
+    width: 478.82px;
+    height: 292.94px;
+    position: absolute;
+    left: calc(50% - -46.88px);
+    top: calc(50% - 87.27px);
+}
+
+.name {
+    color: #352a24;
+    text-align: left;
+    font: 400 24px "Poppins", sans-serif;
+    position: absolute;
+    left: calc(50% - 480.5px);
+    top: calc(50% - 121.5px);
+}
+
+.subject {
+    color: #352a24;
+    text-align: left;
+    font: 400 24px "Poppins", sans-serif;
+    position: absolute;
+    left: calc(50% - 475.5px);
+    top: calc(50% - -2.5px);
+}
+
+.message {
+    color: #352a24;
+    text-align: left;
+    font: 400 24px "Poppins", sans-serif;
+    position: absolute;
+    left: calc(50% - -61.5px);
+    top: calc(50% - 121.5px);
+}
+
+.button {
+    width: 365.92px;
+    height: 48.97px;
+    position: static;
+}
+
+.rectangle-26 {
+    background: #352a24;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    width: 365.92px;
+    height: 48.97px;
+    position: absolute;
+    left: calc(50% - 448.07px);
+    top: calc(50% - -164.57px);
+}
+
+.submit {
+    color: #ffffff;
+    text-align: left;
+    font: 600 20px "Poppins", sans-serif;
+    position: absolute;
+    left: calc(50% - 297.54px);
+    top: calc(50% - -174.5px);
+}
+
+.contact-me {
+    color: #ffffff;
+    text-align: left;
+    font: 600 48px "Poppins", sans-serif;
+    position: absolute;
+    left: calc(50% - 145.5px);
+    top: calc(50% - 268.5px);
+}
