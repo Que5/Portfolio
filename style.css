@@ -11,13 +11,13 @@
     --bottom-margin-2: 1rem;
     --line-height: 1.7rem;
     --transition: 0.3s;
-  }
-   
+}
+
 
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 /* navigation bar */
 
@@ -30,53 +30,57 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 3.5rem;
+    padding: 1.5rem 1.5rem;
     background-color: var(--bg-color);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-  }
-  nav h1 {
+}
+
+nav h1 {
     color: #352a24;
-  }
-  
-  nav a {
+}
+
+nav a {
     color: var(--primary-color);
     transition: var(--transition);
-  }
-  nav a:hover {
+}
+
+nav a:hover {
     color: var(--secondary-color);
     border-bottom: 2px solid var(--secondary-color);
-  }
-  
-  nav ul {
+}
+
+nav ul {
     display: flex;
     gap: 1.9rem;
-  }
-  
-  nav ul li {
+}
+
+nav ul li {
     font-weight: var(--bold-font);
-  }
-  
-  .burger-menu {
+}
+
+.burger-menu {
     color: var(--primary-color);
     font-size: 2rem;
     border: 0;
     background-color: transparent;
     cursor: pointer;
     display: none;
-  }
-  ul {
+}
+
+ul {
     list-style-type: none;
-  }
-  
-  a {
+}
+
+a {
     text-decoration: none;
     color: var(--primary-color);
-  }
-  
-  a:hover {
+}
+
+a:hover {
     color: var(--secondary-color);
-  }
-  /* Navbar ends */
+}
+
+/* Navbar ends */
 
 .hero,
 .hero * {
@@ -639,25 +643,26 @@ nav {
     position: fixed;
     right: 1%;
     bottom: 50%;
-  }
-  
-  .socicon {
+}
+
+.socicon {
     width: 2rem;
     height: 2rem;
-  }
-  /* Social button ends */
-  
-  /* Scroll to top button */
-  .scroll-up {
+}
+
+/* Social button ends */
+
+/* Scroll to top button */
+.scroll-up {
     position: fixed;
     right: 0.5%;
     bottom: 3%;
     cursor: pointer;
-  }
-  
-  .up-arrow {
+}
+
+.up-arrow {
     width: 3rem;
     height: 3rem;
-  }
-  /* Scroll to top button ends */
-  
+}
+
+/* Scroll to top button ends */
