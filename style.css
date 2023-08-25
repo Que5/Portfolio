@@ -496,7 +496,7 @@ a:hover {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
 }
 
-
+/* Contact page  */
 .contact,
 .contact * {
     box-sizing: border-box;
@@ -642,12 +642,14 @@ a:hover {
     flex-direction: column;
     position: fixed;
     right: 1%;
-    bottom: 50%;
+    bottom: 40%;
+    z-index: 10;
 }
 
 .socicon {
     width: 2rem;
     height: 2rem;
+
 }
 
 /* Social button ends */
@@ -655,14 +657,56 @@ a:hover {
 /* Scroll to top button */
 .scroll-up {
     position: fixed;
-    right: 0.5%;
-    bottom: 3%;
     cursor: pointer;
+    z-index: 10;
+    bottom: 20px;
+    right: 20px;
+    display: none;
 }
 
 .up-arrow {
     width: 3rem;
     height: 3rem;
+    z-index: 10;
 }
 
 /* Scroll to top button ends */
+
+/* Copyright */
+.copyright,
+.copyright * {
+    box-sizing: border-box;
+}
+
+.copyright {
+    background: rgba(53, 111, 127, 0.3);
+    width: 1439px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.copyright-2023 {
+    color: #ffffff;
+    text-align: left;
+    font: 700 24px "Poppins", sans-serif;
+    position: absolute;
+    left: calc(50% - 82.5px);
+    top: 44px;
+}
+
+.copyright2 {
+    position: absolute;
+    left: 594.59px;
+    top: 40px;
+    overflow: visible;
+}
+
+.built-by-phumlani-bright-dlamini {
+    color: #ffffff;
+    text-align: left;
+    font: 600 20px "Poppins", sans-serif;
+    position: absolute;
+    left: calc(50% - 146.5px);
+    top: 80px;
+}
