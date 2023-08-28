@@ -67,7 +67,7 @@ navLink.forEach((link) =>
 const scrollUpButton = document.getElementById("scroll-up");
 
 window.addEventListener("scroll", () => {
-    if (window.scrollY > 1000) { /* Show the button when the user has scrolled down 500 pixels */
+    if (window.scrollY > 500) { /* Show the button when the user has scrolled down 500 pixels */
         scrollUpButton.style.display = "block";
     } else {
         scrollUpButton.style.display = "none";
