@@ -125,7 +125,7 @@
     </div>
 
 
-    <div class="contact" id="contactForm" action="/" method="post">
+    <div class="contact" name="myForm" id="contactForm" action="/" method="post">
         <div class="contact2">
             <div class="group-16">
                 <div class="rectangle-23"></div>
@@ -137,7 +137,7 @@
                 <div class="message" id="message">Message</div>
                 <div class="button">
                     <div class="rectangle-26"></div>
-                    <button class="submit" onClick="submit()">Submit</button>
+                    <button class="submit" onsubmit="return validateForm()" onClick="submit()">Submit</button>
                 </div>
             </div>
         </div>
