@@ -102,6 +102,7 @@ a:hover {
     position: absolute;
     left: -210px;
     top: 0px;
+    filter: brightness(50%);
 }
 
 .rectangle-2 {
