@@ -202,7 +202,7 @@ a:hover {
     font: 600 48px "Poppins", sans-serif;
     position: absolute;
     left: calc(50% - 62.97px);
-    top: calc(50% - 242.5px);
+    top: calc(40% - 242.5px);
 }
 
 .group-12 {
@@ -674,6 +674,17 @@ a:hover {
 /* Scroll to top button ends */
 
 /* Copyright */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(194,212,216,255);
+    color: #ffffff;
+    font: 700 24px "Poppins", sans-serif;
+}
+
+
 .copyright,
 .copyright * {
     box-sizing: border-box;
@@ -685,6 +696,8 @@ a:hover {
     height: 100px;
     position: relative;
     overflow: hidden;
+    color: #ffffff;
+    font: 700 24px "Poppins", sans-serif;
 }
 
 .copyright-2023 {
