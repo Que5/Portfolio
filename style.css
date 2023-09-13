@@ -731,6 +731,10 @@ a:hover {
     top: 50px;
 }
 
+.g-recaptcha {
+    bottom: 0;
+}
+
 @media screen and (max-width: 720px) {
     nav {
         padding: 2.5rem 2rem;

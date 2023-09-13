@@ -135,6 +135,7 @@
                 <div class="name" id="name" aria-placeholder="Name">Name</div>
                 <div class="subject" id="email">Email</div>
                 <div class="message" id="message">Message</div>
+                <div class="g-recaptcha" data-sitekey="6Lf9AiEoAAAAACWsMMbjztJ-gdANzlTkyYZfQ4Qm"></div>
                 <div class="button">
                     <div class="rectangle-26"></div>
                     <button class="submit" onsubmit="return validateForm()" sendMessage()>Submit</button>
@@ -165,7 +166,19 @@
 
     </footer>
 
-
+    <script src='https://www.google.com/recaptcha/api.js'>
+        function get_action(form) {
+            var v = grecaptcha.getResponse();
+            if (v.length == 0) {
+                document.getElementById('captcha').innerHTML = "You can't leave Captcha Code empty";
+                return false;
+            }
+            else {
+                document.getElementById('captcha').innerHTML = "Captcha completed";
+                return true;
+            }
+        }
+    </script>
     <script src="app.js"></script>
 
     <script type="module">
