@@ -107,7 +107,7 @@ a:hover {
 
 .rectangle-2 {
     background: rgba(41, 47, 48, 0.65);
-    width: 1440px;
+    width: 1423px;
     height: 1033px;
     position: relative;
     left: -2px;
@@ -148,7 +148,7 @@ a:hover {
 
 .rectangle-2 {
     background: rgba(41, 47, 48, 0.65);
-    width: 1440px;
+    width: 1423px;
     height: 1033px;
     position: relative;
 }
@@ -174,7 +174,7 @@ a:hover {
 
 .skills {
     background: #1c3941;
-    width: 1439px;
+    width: 1423px;
     height: 750px;
     position: relative;
 }
@@ -367,8 +367,8 @@ a:hover {
 
 .projects {
     background: rgba(53, 111, 127, 0.5);
-    width: 1439px;
-    height: 750px;
+    width: 1423px;
+    height: 700px;
     position: relative;
 }
 
@@ -383,7 +383,7 @@ a:hover {
     font: 600 48px "Poppins", sans-serif;
     position: absolute;
     left: calc(50% - 98.5px);
-    top: calc(50% - 229.5px);
+    top: calc(40% - 229.5px);
 }
 
 .project-item {
@@ -398,8 +398,9 @@ a:hover {
     height: 177.1px;
     position: absolute;
     left: calc(50% - 513.5px);
-    top: calc(50% - 69.5px);
+    top: calc(40% - 69.5px);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    z-index: 10;
 }
 
 .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit {
@@ -408,9 +409,10 @@ a:hover {
     font: 600 20px "Poppins", sans-serif;
     position: absolute;
     left: calc(50% - 491.5px);
-    top: calc(50% - -132.5px);
+    top: calc(40% - -132.5px);
     width: 231.53px;
     height: 30.67px;
+    z-index: 10;
 }
 
 .rectangle-33 {
@@ -423,7 +425,7 @@ a:hover {
     height: 297.47px;
     position: absolute;
     left: calc(50% - 513.5px);
-    top: calc(50% - 68.5px);
+    top: calc(40% - 68.5px);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
 }
 
@@ -433,8 +435,9 @@ a:hover {
     height: 177.1px;
     position: absolute;
     left: calc(50% - 137.5px);
-    top: calc(50% - 69.5px);
+    top: calc(40% - 69.5px);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    z-index: 10;
 }
 
 .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit2 {
@@ -443,9 +446,10 @@ a:hover {
     font: 600 20px "Poppins", sans-serif;
     position: absolute;
     left: calc(50% - 123.5px);
-    top: calc(50% - -132.5px);
+    top: calc(40% - -132.5px);
     width: 231.53px;
     height: 30.67px;
+    z-index: 10;
 }
 
 .rectangle-332 {
@@ -458,7 +462,7 @@ a:hover {
     height: 297.47px;
     position: absolute;
     left: calc(50% - 137.5px);
-    top: calc(50% - 68.5px);
+    top: calc(40% - 68.5px);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
 }
 
@@ -468,8 +472,9 @@ a:hover {
     height: 177.1px;
     position: absolute;
     left: calc(50% - -237.5px);
-    top: calc(50% - 69.5px);
+    top: calc(40% - 69.5px);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    z-index: 10;
 }
 
 .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit3 {
@@ -478,9 +483,10 @@ a:hover {
     font: 600 20px "Poppins", sans-serif;
     position: absolute;
     left: calc(50% - -259.5px);
-    top: calc(50% - -132.5px);
+    top: calc(40% - -132.5px);
     width: 231.53px;
     height: 30.67px;
+    z-index: 10;
 }
 
 .rectangle-333 {
@@ -493,7 +499,7 @@ a:hover {
     height: 297.47px;
     position: absolute;
     left: calc(50% - -237.5px);
-    top: calc(50% - 68.5px);
+    top: calc(40% - 68.5px);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
 }
 
@@ -505,7 +511,7 @@ a:hover {
 
 .contact {
     background: #1c3941;
-    width: 1439px;
+    width: 1423px;
     height: 750px;
     position: relative;
 }
@@ -616,7 +622,7 @@ a:hover {
     height: 48.97px;
     position: absolute;
     left: calc(50% - 448.07px);
-    top: calc(50% - -164.57px);
+    top: calc(55% - -164.57px);
 }
 
 .submit {
@@ -625,7 +631,7 @@ a:hover {
     font: 600 20px "Poppins", sans-serif;
     position: absolute;
     left: calc(50% - 297.54px);
-    top: calc(50% - -174.5px);
+    top: calc(55% - -174.5px);
 }
 
 .contact-me {
@@ -693,7 +699,7 @@ a:hover {
 .copyright {
     background: rgba(53, 111, 127, 0.3);
     width: 1439px;
-    height: 100px;
+    height: 80px;
     position: relative;
     overflow: hidden;
     color: #ffffff;
@@ -706,13 +712,13 @@ a:hover {
     font: 700 24px "Poppins", sans-serif;
     position: absolute;
     left: calc(50% - 82.5px);
-    top: 44px;
+    top: 20px;
 }
 
 .copyright2 {
     position: absolute;
     left: 594.59px;
-    top: 40px;
+    top: 20px;
     overflow: visible;
 }
 
@@ -722,7 +728,7 @@ a:hover {
     font: 600 20px "Poppins", sans-serif;
     position: absolute;
     left: calc(50% - 146.5px);
-    top: 80px;
+    top: 50px;
 }
 
 @media screen and (max-width: 720px) {
