@@ -125,20 +125,23 @@
     </div>
 
 
-    <div class="contact" name="myForm" id="contactForm" action="mailto:phumlanibrightdlamini@gmail.com" method="post">
+    <div class="contact" name="myForm" id="contactForm" action="" method="post">
         <div class="contact2">
             <div class="group-16">
                 <div class="rectangle-23"></div>
-                <input type="text" class="rectangle-24">
+                <input type="text" name="fname" required class="rectangle-24">
+                <div id="nameError"></div>
                 <input type="email" class="rectangle-25">
                 <input type="textfield" class="rectangle-27">
+                <div id="emailError"></div>
                 <div class="name" id="name" aria-placeholder="Name">Name</div>
                 <div class="subject" id="email">Email</div>
                 <div class="message" id="message">Message</div>
                 <div class="g-recaptcha" data-sitekey="6Lf9AiEoAAAAACWsMMbjztJ-gdANzlTkyYZfQ4Qm"></div>
+                <div id="captcha"></div>
                 <div class="button">
                     <div class="rectangle-26"></div>
-                    <button class="submit" onsubmit="return validateForm()" sendMessage() value="Send">Submit</button>
+                    <button class="submit" onsubmit="return validateForm()">Submit</button>
                 </div>
             </div>
         </div>
@@ -181,7 +184,7 @@
     </script>
     <script src="app.js"></script>
 
-    <script type="module">
+    <!-- <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.0/firebase-app.js";
         import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.3.0/firebase-analytics.js";
         import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/10.3.0/firebase-database.js";
@@ -214,7 +217,7 @@
             const message = document.getElementById("message").value;
             sendMessage(name, email, message);
         });
-    </script>
+    </script> -->
 
 </body>
 

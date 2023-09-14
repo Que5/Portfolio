@@ -41,8 +41,30 @@ scrollUp.addEventListener("click", () => {
 });
 
 //validation
-
-
+function validateForm() {
+    const fnameInput = document.querySelector('input[name="fname"]');
+    const emailInput = document.querySelector('input[type="email"]');
+  
+    // Validate First Name
+    if (fnameInput.value.trim() === '') {
+      document.getElementById('nameError').textContent = 'Please enter your first name.';
+      return false;
+    } else {
+      document.getElementById('nameError').textContent = '';
+    }
+  
+    // Validate Email
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(emailInput.value)) {
+      document.getElementById('emailError').textContent = 'Please enter a valid email address.';
+      return false;
+    } else {
+      document.getElementById('emailError').textContent = '';
+    }
+  
+    // All fields are valid
+    return true;
+  }
 
 
 
