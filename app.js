@@ -40,26 +40,41 @@ scrollUp.addEventListener("click", () => {
   });
 });
 
+function validateForm() {
+  const fnameInput = document.querySelector('input[name="fname"]');
+  const emailInput = document.querySelector('input[type="email"]');
+
+  // Validate First Name
+  if (fnameInput.value.trim() === '') {
+    document.getElementById('nameError').textContent = 'Please enter your first name.';
+    return false;
+  } else {
+    document.getElementById('nameError').textContent = '';
+  }
+
+  // Validate Email
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailRegex.test(emailInput.value)) {
+    document.getElementById('emailError').textContent = 'Please enter a valid email address.';
+    return false;
+  } else {
+    document.getElementById('emailError').textContent = '';
+  }
+
+  // All fields are valid
+  return true;
+}
+
+function resetForm() {
+  document.querySelector('input[name="fname"]').value = '';
+  document.querySelector('input[type="email"]').value = '';
+  document.querySelector('.rectangle-27').value = '';
+}
+
 function submitForm() {
-  // Validate function should be added here
-  function validateForm() {
-    var name = document.getElementsByName('fname')[0].value;
-    var email = document.getElementsByClassName('rectangle-25')[0].value;
-    var message = document.getElementsByClassName('rectangle-27')[0].value;
-    var captcha = grecaptcha.getResponse();
-
-    // Example validation: check if name, email, and message are not empty
-    if (name === '' || email === '' || message === '') {
-      // Display an error message or perform any other necessary actions
-      // For example, updating the error message elements
-      document.getElementById('nameError').textContent = name === '' ? 'Please enter your name' : '';
-      document.getElementById('emailError').textContent = email === '' ? 'Please enter your email' : '';
-      return false; // Prevent form submission
-    }
-
-    // Additional validation logic can be added here
-
-    return true; // Allow form submission
+  // Validate the form
+  if (!validateForm()) {
+    return; // Abort submission if validation fails
   }
 
   // Get form values
@@ -79,15 +94,10 @@ function submitForm() {
     .then(function (response) {
       console.log('Email successfully sent!', response.status, response.text);
       // Add any success message or redirect logic here
-    }, function (error) {
+      resetForm(); // Clear the form after successful submission
+    })
+    .catch(function (error) {
       console.error('Email sending failed:', error);
       // Add any error handling logic here
     });
 }
-
-
-
-
-
-
-
