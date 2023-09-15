@@ -33,6 +33,7 @@ nav {
     padding: 1.5rem 1.5rem;
     background-color: var(--bg-color);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    z-index: 15;
 }
 
 nav h1 {
@@ -650,7 +651,7 @@ a:hover {
     position: fixed;
     right: 1%;
     bottom: 40%;
-    z-index: 10;
+    z-index: 30;
 }
 
 .socicon {
@@ -688,6 +689,7 @@ a:hover {
     background-color: rgba(194, 212, 216, 255);
     color: #ffffff;
     font: 700 24px "Poppins", sans-serif;
+    /* z-index: 20; */
 }
 
 
@@ -704,6 +706,7 @@ a:hover {
     overflow: hidden;
     color: #ffffff;
     font: 700 24px "Poppins", sans-serif;
+
 }
 
 .copyright-2023 {

@@ -141,7 +141,7 @@
                 <div id="captcha"></div>
                 <div class="button">
                     <div class="rectangle-26"></div>
-                    <button class="submit" onsubmit="return validateForm()">Submit</button>
+                    <button class="submit" onclick="submitForm()" onsubmit="return validateForm()">Submit</button>
                 </div>
             </div>
         </div>
@@ -183,41 +183,15 @@
         }
     </script>
     <script src="app.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("Vm0HgYsNdafgU1vmH");
+        })();
+    </script>
 
-    <!-- <script type="module">
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.0/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.3.0/firebase-analytics.js";
-        import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/10.3.0/firebase-database.js";
 
-        const firebaseConfig = {
-            apiKey: "AIzaSyCPLEa1Od7Z3b4gVcA5hoUKNImd8DKw0kk",
-            authDomain: "awesomeportfolio-6388a.firebaseapp.com",
-            projectId: "awesomeportfolio-6388a",
-            storageBucket: "Yawesomeportfolio-6388a.appspot.com",
-            messagingSenderId: "79935082843",
-            appId: "1:79935082843:web:ce82d45eb23ddc72390a7e",
-            measurementId: "G-K9FZCK5DCN"
-        };
-
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
-        const database = getDatabase();
-
-        function sendMessage(name, email, message) {
-            set(ref(database, 'users/' + Math.floor(Math.random() * 200000)), {
-                name: name,
-                email: email,
-                message: message
-            });
-        }
-
-        document.querySelector('.submit').addEventListener('click', function () {
-            const name = document.getElementById("name").value;
-            const email = document.getElementById("email").value;
-            const message = document.getElementById("message").value;
-            sendMessage(name, email, message);
-        });
-    </script> -->
 
 </body>
 
